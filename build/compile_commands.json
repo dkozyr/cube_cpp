@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/yk/Coding/cpp_project/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/graphics-test.dir/main.cpp.o -c /home/yk/Coding/cpp_project/main.cpp",
-  "file": "/home/yk/Coding/cpp_project/main.cpp"
-}
-]
