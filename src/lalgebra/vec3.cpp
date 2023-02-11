@@ -43,12 +43,12 @@ vec3& vec3::operator+=(const vec3& b){
     return *this;
 }
 
-// Overload - operator to perform vector substraction
+// Overload - operator to perform vector subtraction
 vec3 vec3::operator-(const vec3& b) const {
     return vec3(x - b.x, y - b.y, z - b.z);
 }
 
-// Overload -= operator to perform vector substraction with assignment
+// Overload -= operator to perform vector subtraction with assignment
 vec3& vec3::operator-=(const vec3& b){
     x -= b.x;
     y -= b.y;
