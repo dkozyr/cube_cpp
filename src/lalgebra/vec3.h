@@ -23,6 +23,7 @@ public:
     vec3 operator-(const vec3& b) const;
     vec3& operator-=(const vec3& b);
     bool operator==(const vec3 &rhs) const;
+    bool operator!=(const vec3 &rhs) const;
 };
 
 std::ostream& operator<<(std::ostream& stream, const vec3& a);

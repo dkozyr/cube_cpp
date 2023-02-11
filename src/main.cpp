@@ -17,10 +17,10 @@ int main(int, char**) {
     b += vec3(3, 7, 2);
     auto c = vec3::mult(a, b);
     a.mult(b);
-    cout << "a: " << a << ", c: " << c << ", (a==c): " << (a==c) << endl;
+    cout << "a: " << a << ", c: " << c << ", (a == c): " << (a == c) << endl;
 
     a.mult(b).mult(b).mult(b).mult(b).mult(b).mult(b);
-    cout << "a: " << a << ", (a==c): " << (a==c) << endl;
+    cout << "a: " << a << ", (a != c): " << (a != c) << endl;
 
     return 0;
 }

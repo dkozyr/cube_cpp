@@ -61,6 +61,11 @@ bool vec3::operator==(const vec3& rhs) const {
     return (x == rhs.x) && (y == rhs.y) && (z == rhs.z);
 }
 
+// Overload != operator to perform equality check
+bool vec3::operator!=(const vec3& rhs) const {
+    return !(*this == rhs);
+}
+
 std::ostream& operator<<(std::ostream& stream, const vec3& a){
     stream << "(" << a.x << ", " << a.y << ", " << a.z << ")";
     return stream;
